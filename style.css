@@ -1,0 +1,61 @@
+body{
+  text-align:center;
+  background:linear-gradient(#E1BEE7 0%, #90CAF9 100%);
+  background-repeat:no-repeat;
+}
+
+h1{
+  text-shadow: 2px 2px #F8BBDO;
+  font-size: 20px;
+}
+
+#Bio{
+  padding: 20px;
+  font-size:18;
+  text-align:center;
+}
+
+.menu{
+    font-family: sans-serif;
+    top: 10px;
+    right: 10px;
+    z-index:10;
+    cursor:pointer;
+    list-style: none;
+    position: absolute;
+}
+
+.links{
+    float: left;
+    color: #fff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-family: fantasy;
+    font-size:20px;
+}
+.links:hover{
+    background-color: dodgerblue;
+}
+
+.parallax-inner { 
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#welcome{
+    text-align: left;
+}
+
+img{
+    height: 300px;
+    width: 200px;
+}
+
